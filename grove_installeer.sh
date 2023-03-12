@@ -13,7 +13,10 @@ sudo pip install .
 sudo pip3 install .
 
 # Clone the grove repository into the Desktop directory
-git clone https://github.com/awarschauer/grove.git ~/Desktop
+git clone https://github.com/awarschauer/grove.git ~/Desktop/Grove
+
+# Visit that destination
+cd ~/Desktop/Grove
 
 # Make all the .py files in the current directory executable by the owner
 sudo chmod u+x *.py
