@@ -16,5 +16,5 @@ sudo pip3 install .
 git clone https://github.com/awarschauer/grove.git ~/Desktop
 
 # Make all the .py files in the current directory executable by the owner
-chmod u+x *.py
+sudo chmod u+x *.py
 
